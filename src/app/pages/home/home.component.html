@@ -1,0 +1,38 @@
+<section class="home">
+    <div class="home__content flex">
+        <div class="home__content--bg">
+            <h1 class="header__logo">
+                <img src="../../../assets/images/logo.png" alt="">
+            </h1>
+        </div>
+        <div class="home__content--form">
+            <span class="text text__center">Bem Vindo</span>
+            <span class="text text__small text__center text__light">Use sua conta para o login </span>
+
+            <form action="" class="form" [formGroup]="homeForm" (submit)="submitLogin()">
+                <div class="form__group">
+                    <label for="username">Usuário:</label>
+                    <div class="form__control">
+                        <input type="text" formControlName="user">
+                    </div>
+                    <div class="form__erro" *ngIf="homeForm.get('user')?.errors?.['required'] && homeForm.get('user')?.touched" >
+                      Usuário obrigatório
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <label for="password">Senha:</label>
+                    <div class="form__control">
+                        <input type="password" formControlName="pass">
+                    </div>
+                    <div class="form__erro" *ngIf="homeForm.get('pass')?.errors?.['required'] && homeForm.get('pass')?.touched" >
+                      Senha obrigatório
+                    </div>
+                    <a href="#" class="link text__right">Esqueceu a senha?</a>
+                </div>
+
+                <button class="btn btn__success" [disabled]="!homeForm.valid" type="submit">Avançar</button>
+            </form>
+        </div>
+    </div>
+</section>

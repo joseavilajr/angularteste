@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<body>
+  <div  class="container">
+    <i>
+      <div class="caixa" style="background-image: url('../../../assets/images/imagem_produto/{{produto.imagem}}');"></div>
+      <h1 class="nome">{{produto.produto}}</h1>
+      <div class="quant">{{produto.quantidade}}</div>
+      <div class="prod">{{produto.produtora}}</div>
+      <h1 class="valor">R${{produto.preco}}</h1>
+    </i>
+    <button class="fas fa-shopping-cart" (click)="comprarProduto(produto)">COMPRAR AGORA </button>
+  </div>
+</body>

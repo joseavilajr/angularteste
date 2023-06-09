@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="container">
+
+    <i *ngFor="let produtos of produto">
+      <div class="caixa" style="background-image: url('../../../assets/images/imagem_produto/{{produtos.imagem}}');" (click)="fazerPedido(produtos.id)"></div>
+      <div class="nomeCaixa">{{produtos.produto}}</div>
+      <div class="fas fa-shopping-cart" (click)="fazerPedido(produtos.id)"> R${{produtos.preco}}</div>
+    </i>
+
+  </div>
+</body>

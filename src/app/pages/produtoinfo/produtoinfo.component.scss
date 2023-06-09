@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden
+}
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 173px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.container .caixa {
+  position: relative;
+  top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 523px;
+  height: 550px;
+  left: -269px;
+  background: #F6F1F1;
+  border-radius: 35px;
+  background-size: cover;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.nome{
+  position: relative;
+  font-size: 40px;
+  top: -471px;
+  left: 505px
+}
+
+.valor{
+  position: relative;
+  font: inherit;
+  font-size: 30px;
+  top: -349px;
+  left: 505px;
+}
+
+.prod{
+  position: relative;
+  top: -492px;
+  left: 505px;
+  color: #19A7CE;
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.quant{
+  position: relative;
+  top: -451px;
+  left: 505px;
+  font-size: 13px;
+  color: rgb(141, 129, 120);
+}
+
+.fas{
+  position: relative;
+  top: -477px;
+  left: 505px;
+  border-radius: 4px;
+  background-color: #146C94;
+  -webkit-box-align: center;
+  border-radius: 8px;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  color: #F6F1F1;
+  cursor:pointer;
+  height: 48px;
+  -webkit-box-pack: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition-duration: 0.2ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  width: 53%;
+}

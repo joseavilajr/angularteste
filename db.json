@@ -1,0 +1,72 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "user": "teste01",
+      "pass": "123"
+    },
+    {
+      "id": 2,
+      "user": "joao",
+      "pass": "12345"
+    },
+    {
+      "id": 3,
+      "user": "maria",
+      "pass": "mariadb"
+    }
+  ],
+
+  "produto": [
+    {
+      "id": 1,
+      "produto": "produto01",
+      "preco": 100.00,
+      "imagem": "produto01.jpg",
+      "produtora": "ABC",
+      "quantidade": "30 Comprimidos"
+    },
+    {
+      "id": 2,
+      "produto": "produto02",
+      "preco": 200.00,
+      "imagem": "produto02.png",
+      "produtora": "Produtora Teste",
+      "quantidade": "20 Comprimidos"
+
+    },
+    {
+      "id": 3,
+      "produto": "produto03",
+      "preco": 150.00,
+      "imagem": "produto03.jpg",
+      "produtora": "Teste",
+      "quantidade": "40 Comprimidos"
+    },
+    {
+      "id": 4,
+      "produto": "produto04",
+      "preco": 400.00,
+      "imagem": "produto04.jpg",
+      "produtora": "ABC",
+      "quantidade": "50 ml"
+    },
+    {
+      "id": 5,
+      "produto": "produto05",
+      "preco": 230.00,
+      "imagem": "produto05.jpg",
+      "produtora": "Genérico",
+      "quantidade": "20 Comprimidos"
+    },
+    {
+      "id": 6,
+      "produto": "produto06",
+      "preco": 300.00,
+      "imagem": "produto06.jpg",
+      "produtora": "Teste ABC",
+      "quantidade": "30 Cápsulas"
+    }
+  ]
+
+}

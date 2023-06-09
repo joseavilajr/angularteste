@@ -1,0 +1,36 @@
+.home {
+    height: 100vh;
+
+    &__content {
+        height: 100%;
+        .header_logo {
+            img {
+                width: 150px;
+                display: block;
+            }
+        }
+        &--bg {
+            background-image: url('../../../assets/images/anbfarmabackground.jpg');
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &--form{
+            padding: 180px 30px 30px 30px;
+            width: 100%;
+            max-width: 40%;
+            height: 100%;
+            background-color: #AFD3E2;
+            color: #146C94;
+
+            .form{
+                width: 100%;
+                max-width: 50%;
+                margin: 50px auto 0;
+            }
+        }
+    }
+
+
+}

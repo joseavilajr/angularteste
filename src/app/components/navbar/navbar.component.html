@@ -1,0 +1,20 @@
+
+<link rel="stylesheet" href="navbar.component.css">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="inner-width">
+      <a href="/menu" class="logo"><img src="../../../assets/images/logosemfundo.png"></a>
+      <i class="menu-toggle-btn fas fa-bars" (click)="openMenu()"></i>
+      <nav class="navigation-menu" [class.menuClass]="menuVariable">
+        <a href="/menu"><i class="fas fa-home home"></i> Inicio</a>
+        <a href="/menu"><i class="fas fa-wallet cart"></i> Carteira</a>
+        <a href="/menu"><i class="fas fa-headset contato"></i> Contato</a>
+        <a href="/"><i class="fas fa-sign-out sair"></i> Sair</a>
+      </nav>
+    </div>
+  </header>
+</body>
